@@ -48,18 +48,3 @@ end
 students = input_students
 print_header
 print(students)
-
-
-# def print(students)
-#       a_student = []    
-#       students.each_with_index do |student, index| if student[:name].length <  12
-#       a_student << student[:name]
-#         puts "#{index+1}: #{student[:name]} (#{student[:cohort]} cohort)"
-#       end
-#     end
-#     puts "Overall, we have #{a_student.count} great students"
-# end
-# def print_footer(students)
-#     puts "Overall, we have #{students.count} great students"
-# end
-#print_footer(students)
